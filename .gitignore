@@ -1,24 +1,39 @@
-*.log
-.DS_Store
+# =====================================
+# 💡 Laravel .gitignore - versi rapi
+# =====================================
+
+# Environment
 .env
 .env.backup
 .env.production
-.phpactor.json
+auth.json
+
+# Cache & Log files
+*.log
 .phpunit.result.cache
-/.fleet
+.phpunit.cache
+
+# IDE & Editor files
+.DS_Store
+Thumbs.db
+.phpactor.json
 /.idea
-/.nova
-/.phpunit.cache
 /.vscode
+/.fleet
+/.nova
 /.zed
-/auth.json
+
+# Node modules & frontend build
 /node_modules
-/public/build
 /public/hot
+/public/build
+
+# Laravel-specific folders
 /public/storage
 /storage/*.key
 /storage/pail
 /vendor
+
+# Homestead (jika tidak pakai)
 Homestead.json
 Homestead.yaml
-Thumbs.db
