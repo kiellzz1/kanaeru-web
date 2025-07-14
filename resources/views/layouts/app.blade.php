@@ -23,7 +23,7 @@
                 'about' => 'About Me',
                 'projects' => 'Project',
                 'contact' => 'Contact',
-                'profile' => 'Profil Pengguna',
+                'profile' => 'Profile',
             ] as $route => $label)
                 <a href="{{ route($route) }}"
                    class="relative pb-1 transition {{ $current === $route ? 'text-blue-400 after:w-full' : 'text-white after:w-0' }}
@@ -52,7 +52,7 @@
                 'about' => 'About Me',
                 'projects' => 'Project',
                 'contact' => 'Contact',
-                'profile' => 'Profil Pengguna',
+                'profile' => 'Profile',
             ] as $route => $label)
                 <a href="{{ route($route) }}" class="block text-white hover:text-blue-400">
                     {{ $label }}

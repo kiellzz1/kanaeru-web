@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    // ✅ Spotify service config — sudah diperbaiki dan langsung isi client_id & secret
+    'spotify' => [
+        'client_id' => '68f25ccc095f474182aa6df397f3d592',
+        'client_secret' => 'dade4da9a7bf417f87bdff752540dbc1',
+    ],
+
 ];

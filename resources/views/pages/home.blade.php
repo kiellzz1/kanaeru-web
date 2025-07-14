@@ -39,11 +39,6 @@
         </a>
     </section>
 
-    <!-- Footer -->
-    <footer class="text-center text-sm text-gray-400 pb-4">
-        &copy; {{ date('Y') }} Kanaeru Team. Inspired by crDroid & Evolution-X.
-    </footer>
-
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
